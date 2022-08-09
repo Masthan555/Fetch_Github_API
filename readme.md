@@ -3,8 +3,6 @@ Node JS API's for fetching most forked Github Repositories
 # GITHUB-REPOS - Application Backend [ Session 1]
 
 This code base contains logic/structure for creating the Restful APIs for the GITHUB-REPOS app, Using which we can fetch details about most forked repositories in github sorted accordingly along with commits
-## Features
-* Setting up project structure
 
 ## How is the code organized in this repo ?
 Every code base is tested, So created new repo and merged everything to master branch for.
