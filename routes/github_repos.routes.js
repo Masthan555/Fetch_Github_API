@@ -10,6 +10,6 @@ const github_repo_controller = require("../controllers/github_repos.controller")
 module.exports = (app)=>{
 
     // GET - Endpoint for making the web call to fetch the repos and commits
-    app.get("/repos", github_repo_controller.get_most_forked_repositories);
+    app.get("/", github_repo_controller.get_most_forked_repositories);
 
 }
