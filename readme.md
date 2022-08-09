@@ -31,7 +31,7 @@ npm run devStart
 #### 1. Fetch Repos and their corresponding commits
 
 ```sh
-GET /repos?n=10&m=15
+GET https://github-repo-fetch.herokuapp.com?n=10&m=15
 
 Query Params:
 n - represents no of repositories to fetch
